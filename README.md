@@ -3,5 +3,5 @@
 ## run shell config file
 
 ```
-bash bash install.sh
+bash installer_shell.sh
 ```
