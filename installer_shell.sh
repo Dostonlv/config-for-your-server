@@ -3,11 +3,11 @@
 
 # Install Golang
 
-echo "Qaysi Go versiyasini o'rnatishni hohlaysiz? (y/n):"
+echo "Qaysi Go versiyasini o'rnatishni hohlaysiz y-> lts? (y/n):"
 read install_go_lts
 
 if [ "$install_go_lts" = "y" ]; then
-    curl -fsSL https://dl.google.com/go/go1.16.5.linux-amd64.tar.gz -o go.tar.gz
+    curl -fsSL https://dl.google.com/go/go1.20.3.linux-amd64.tar.gz -o go.tar.gz
     sudo tar -C /usr/local -xzf go.tar.gz
     rm go.tar.gz
 else
